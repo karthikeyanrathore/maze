@@ -15,7 +15,13 @@ How to make the algorithm faster ? The Better Way to approach the problem is to 
 4. If the m is greater than the variable x , then we will cut off all the elements to the right of it . Else if it is smaller than x , then we will cut off all the elements to the left of it.
 5. At the end we will have only one element in the array , which will be either equal to x or not equal to x.
 
+For example for the array a = [2 ,3 , 5 , 6 , 8 , 10 , 12]  and x = 10 , the algorithm will be executed as follows:
 
+<p align="center">
+  <img src="https://github.com/karthikeyanrathore/Binary-Search/blob/main/Images/Screenshot%20(75).png" style="width:200px; height:200px;" />
+</p>
+
+ 
 
 
 
