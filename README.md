@@ -16,8 +16,7 @@ How to make the algorithm faster ? The Better Way to approach the problem is to 
 5. At the end we will have only one element in the array , which will be either equal to x or not equal to x.
 
 For example for the array a = [2 ,3 , 5 , 6 , 8 , 10 , 12]  and x = 10 , the algorithm will be executed as follows:
-![title](Images/Screenshot%20(75).png
-)
+
 
  
 
