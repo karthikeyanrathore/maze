@@ -17,7 +17,7 @@ How to make the algorithm faster ? The Better Way to approach the problem is to 
 5. At the end we will have only one element in the array , which will be either equal to x or not equal to x.
 
 #### Implementation
-```
+```Python
 L = 0 , R = n - 1
 while L <= R:
   mid = L + (R - L)/2
