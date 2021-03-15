@@ -7,7 +7,7 @@ Let us assume we have an array a = [a<sub>1</sub> , a<sub>2</sub> , a<sub>3</sub
 
 The Naive way of finding the index of element of x in the array , is to iterate through the whole array from left to right and return the position of the  element x when a<sub>i</sub> = x. But this approach will work in O(n) time , which is inefficient for large input of array. 
 
-<br>
+
 How to make the algorithm faster ? The Better Way to approach the problem is to use the Binary Search Algorithm.  Binary Search Algorithm works only when the array is **sorted** . The Procedure of finding position of element x in the array is as follows :
 
 1. set the left variable to 0 and right variable to (size of array - 1).
