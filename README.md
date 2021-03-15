@@ -18,7 +18,7 @@ How to make the algorithm faster ? The Better Way to approach the problem is to 
 For example for the array a = [2 ,3 , 5 , 6 , 8 , 10 , 12]  and x = 10 , the algorithm will be executed as follows:
 
 <p align="center">
-  <img src="https://github.com/karthikeyanrathore/Binary-Search/blob/main/Images/Screenshot%20(75).png" style="width:200px; height:200px;" />
+  <img src="https://github.com/karthikeyanrathore/Binary-Search/blob/main/Images/Screenshot%20(75).png"  />
 </p>
 
  
