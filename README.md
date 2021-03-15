@@ -9,7 +9,7 @@ The Naive way of finding the index of element of x in the array , is to iterate 
 
 <br>
 How to make the algorithm faster ? The Better Way to approach the problem is to use the Binary Search Algorithm.  Binary Search Algorithm works only when the array is **sorted** . The Procedure of finding position of element x in the array is as follows :
-<br>
+
 1. set the left variable to 0 and right variable to (size of array - 1).
 2. If left > right , then the program terminates.
 3. set the middle variable (m)  to the middle position of the array ,that is (L + R)/2 , to avoid overflow we will use L + (R - L)/2.
