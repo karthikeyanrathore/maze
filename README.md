@@ -37,7 +37,7 @@ For example for the array **a = [2 ,3 , 5 , 6 , 8 , 10 , 12]**  and **x = 10** ,
 4. As the middle element is equal to element x , we will return the position of **10** which is **5**.
 
 #### Time Complexity
-At each step of the algorithm, we reduce the length of the segment under consideration by 2 times, therefore, the steps of the algorithm will be done no more than log<sub>2</sub>n. Thus, the binary search algorithm  runs in O(logn) time.
+At each step of the algorithm, we reduce the length of the segment under consideration by 2 times, therefore, the steps of the algorithm will be done no more than log<sub>2</sub>n. Thus, the binary search algorithm  runs in **O(logn) time**.
  
 
 
