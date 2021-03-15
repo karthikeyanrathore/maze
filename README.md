@@ -16,6 +16,10 @@ How to make the algorithm faster ? The Better Way to approach the problem is to 
 5. At the end we will have only one element in the array , which will be either equal to x or not equal to x.
 
 For example for the array a = [2 ,3 , 5 , 6 , 8 , 10 , 12]  and x = 10 , the algorithm will be executed as follows:
+1. We will consider the line segment [left , right] = [0 , 6] , the middle element is 6.
+2. As our middle element is smaller than the element x , so we will cut off all the elements to the left of it and only consider elements to the right of it.
+3. Now our segment is [left , right] = [4 , 6] , the middle element is 10.
+4. As the middle element is equal to element x , we will return the position of 10 which is 5.
 
 
  
