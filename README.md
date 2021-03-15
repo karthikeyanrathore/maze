@@ -1,3 +1,6 @@
+<link rel="stylesheet" type="text/css" media="all" href="markdown_styles.css" />
+
+
 ## Introduction
 
 ### Search element in an array
