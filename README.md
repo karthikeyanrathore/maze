@@ -46,8 +46,11 @@ Let us assume we have an array a = [7 ,10 , 11 , 13 , 18 , 25 , 27] and the targ
 
 
 #### Idea & Procedure for finding maximum element not greater than x 
-In order to solve this problem we can use  binary search algorithm as the array is sorted and the  time complexity of the program will be O(logn).
-To find the maximum element not greater than x , we need assign left pointer to -INF , that is -1 (index does not exist as array index is from 0 to n- 1) and right pointer to +INF  that is n (index does not exist as array index is from 0 to n-1).At each step  we will check  , if the middle value is less than or equal to the targeted value (x) , if the given condition is true , we will update left pointer to middle position  or  else if is false , we will update right pointer to middle position . At the end we will return the left pointer.
+In order to solve this problem we can use  binary search algorithm as the array is sorted and the  time complexity of the program will be O(logn).<br>
+
+To find the maximum element not greater than x , we need assign left pointer to -INF , that is -1 (index does not exist as array index is from 0 to n- 1) and right pointer to +INF  that is n (index does not exist as array index is from 0 to n-1).<br>
+
+At each step  we will check  , if the middle value is less than or equal to the targeted value (x) , if the given condition is true , we will update left pointer to middle position  or  else if is false , we will update right pointer to middle position . At the end we will return the left pointer.
 
 
 
