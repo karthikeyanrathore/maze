@@ -43,7 +43,7 @@ At each step of the algorithm, we reduce the length of the segment under conside
 
 ### Duplicate elements
 Let us assume we have an array a = [1 ,2 , 4 , 4 , 4 , 5 , 6] and the target value is 4. Our task is to  return the position of the target value.
-If we use a binary search algorithm it would return the 4th element(index 3).However sometimes it is necessary to find the leftmost element or rightmost element for a target value that is duplicated in  the array. In the above array , the leftmost element is the 3rd element (index 2) of the targeted value 4 and the rightmost element is the 5th element(index 4) of the targeted value 4.
+If we use a binary search algorithm it would return the 4th element(index 3).However sometimes it is necessary to find the leftmost element(first duplicate element) or rightmost element for a target value that is duplicated in  the array. In the above array , the leftmost element is the 3rd element (index 2) of the targeted value 4 and the rightmost element is the 5th element(index 4) of the targeted value 4.
 
 #### Idea & Procedure for finding leftmost element
 
