@@ -41,11 +41,12 @@ At each step of the algorithm, we reduce the length of the segment under conside
  
 ## Applications
 
-### Duplicate elements
-Let us assume we have an array a = [1 ,2 , 4 , 4 , 4 , 5 , 6] and the target value is 4. Our task is to  return the position of the target value.
-If we use a binary search algorithm it would return the 4th element(index 3).However sometimes it is necessary to find the leftmost element(first duplicate element) or rightmost element for a target value that is duplicated in  the array. In the above array , the leftmost element is the 3rd element (index 2) of the targeted value 4 and the rightmost element is the 5th element(index 4) of the targeted value 4.
+### Find closest in array
+Let us assume we have an array a = [7 ,10 , 11 , 13 , 18 , 25 , 27] and the target value is 20. Our task is to  return the maximum element not greater than the targeted value (closest to targeted value  on the left) and also to return the minimum element greater than our targeted value(closest to targeted value on the right). In the above example , the maximum element not greater than x (targeted value) is 18 and the minimum element greater than x (targeted value) is 25.  
 
-#### Idea & Procedure for finding leftmost element
+
+
+#### Idea & Procedure for finding maximum element not greater than x 
 
 
 
