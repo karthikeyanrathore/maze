@@ -39,9 +39,11 @@ For example for the array **a = [2 ,3 , 5 , 6 , 8 , 10 , 12]**  and **x = 10** ,
 #### Time Complexity
 At each step of the algorithm, we reduce the length of the segment under consideration by 2 times, therefore, the steps of the algorithm will be done no more than log<sub>2</sub>n. Thus, the binary search algorithm  runs in **O(logn) time**.
  
+### Duplicate elements
+Let us assume we have an array a = [1 ,2 , 4 , 4 , 4 , 5 , 6] and the target value is 4. Our task is to  return the position of the target value.
+If we use a binary search algorithm it would return the 4th element(index 3).However sometimes it is necessary to find the leftmost element or rightmost element for a target value that is duplicated in  the array. In the above array , the leftmost element is the 3rd element (index 2) of the targeted value 4 and the rightmost element is the 5th element(index 4) of the targeted value 4.
 
-
-
+#### Idea & Procedure for finding leftmost element
 
 
 
