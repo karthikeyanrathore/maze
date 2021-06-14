@@ -17,6 +17,14 @@ class Maze(object):
     graph[x].append(y)
     graph[y].append(x)
 
+  def _print(self):
+    for j in range(0 , 100 , 10):
+      for i in range(1, self.width - 1):
+        print(self.data[i + j] , end=" ")
+      print(" ")
+
+
+
   def _create(self):
     print("height %d width %d" % (self.height , self.width))
     for i in range(1, self.width - 1):
@@ -28,12 +36,11 @@ class Maze(object):
     nodes = 0
     for j in range(0 , 100 , 10):
       for i in range(1, self.width - 1):
-        print(self.data[i + j] , end="")
         if(self.data[i + j] > 0):
           nodes += 1
-      print(" ")
 
     self._g(nodes)
+    self._print()
     
 
 
