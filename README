@@ -1,0 +1,18 @@
+Q. Given a maze , source , destination . find path. L R U D (left , right ,up , down).
+
+0 0 1 0 0 0 0 0  
+1 1 1 1 1 1 1 1  
+1 0 0 0 0 1 0 1  
+1 1 1 0 1 1 0 1  
+1 0 1 0 1 0 0 1  
+1 1 1 1 1 0 1 1  
+0 0 0 0 1 0 0 0  
+1 0 1 0 1 0 0 1  
+1 1 1 1 1 1 1 1  
+0 0 0 0 0 0 1 0  
+
+source = (0 , 2)
+dest = (9 , 6)
+
+shortest path in term of L R D U.
+
