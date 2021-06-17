@@ -27,13 +27,17 @@ D R R R D D L D D D D D R R D
 FINAL
 - I guess it works for every  testcases.
 - ./run.sh (tiny 10x10 img) - https://imgur.com/a/dm3L0zi
-- ./srun.sh (small 15x15 img)
+- ./srun.sh (small 15x15 img) - https://imgur.com/a/q0Ui4Ne
+- ./nrun.sh (normal 41x41 img) - https://imgur.com/a/hFjQyAD
 
 
-As the image is 10x10 so to see the input image & output image. click link below.
-- https://imgur.com/a/dm3L0zi
+As the images are 10x10 , 15x15 , 41x41 so to see the input image & output image. click link below.
 - the images are not photoshoped. You can't view 10x10 image on any os , s i used photoshop to view it.
 
 Ignore
 - git config credential.helper 'cache --timeout=243600'
+
+
+Issue
+- saving every singlie pixel in docs/in1 , in2 , in3 // is not the right way.
 
