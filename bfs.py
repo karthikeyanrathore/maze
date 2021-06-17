@@ -1,74 +1,59 @@
 #!/usr/bin/env python3
 
-n = 10
-m = 8
-source = [0 , 2]
-dest = [9 ,6]
-mat = [list(map(int,input().split())) for i in range(n)]
-path= [[0] * m  for _ in range(n)] 
-vis = [[0] * m  for _ in range(n)] 
-
 dx = [4]
 dy = [4]
 dx = [-1 , 0 , 1 , 0];
 dy= [0 , 1 , 0 , -1];
 
-def _print():
-  for i in range(n):
-    for j in range(m):
-      print(mat[i][j] , end = " ")
+
+class BFS(object):
+  def __init__(self , source , dest , n , m ):
+    self.n = n;
+    self.m = m;
+    self.source = source;
+    self.dest = dest;
+    self.mat = mat = [list(map(int,input().split())) for i in range(n)]
+    self.path = path= [[0] * m  for _ in range(n)] 
+    self.vis = vis = [[0] * m  for _ in range(n)] 
+    
+  
+  def _print(self):
+    for i in range(self.n):
+      for j in range(self.m):
+        print(self.mat[i][j] , end = " ")
     print(" ")
 
 
-def isok(r , e):
-  if(r >=0 and r < n  and e >=0 and e < m and vis[r][e] == 0  and mat[r][e] == 1): return 1;
-  return 0;
+  def isok(self  , r , e):
+    if(r >=0 and r < self.n  and e >=0 and e < self.m and self.vis[r][e] == 0  and self.mat[r][e] == 1): return 1;
+    return 0;
 
-def bfs():
-  for i in range(n):
-    for j in range(m):
-      path[i][j] = ((-1 , -1))
-      vis[i][j] = 0
+  def bfs(self):
+    for i in range(self.n):
+      for j in range(self.m):
+        self.path[i][j] = ((-1 , -1))
+        self.vis[i][j] = 0
 
-  Q = []
-  Q.append((source[0] , source[1]))
-  vis[source[0]][source[1]] = 1
-  while(Q):
-    u = Q.pop(0)
-    for i in range(4):
-      if(isok(u[0] + dx[i] , u[1] + dy[i])):
-        Q.append((u[0] +dx[i] , u[1] + dy[i]))
-        vis[u[0] + dx[i]][u[1] + dy[i]]  = 1
-        path[u[0] + dx[i]][u[1] + dy[i]] = (( dx[i] , dy[i]))
+    Q = []
+    Q.append((self.source[0] , self.source[1]))
+    self.vis[self.source[0]][self.source[1]] = 1
+    while(Q):
+      u = Q.pop(0)
+      for i in range(4):
+        if(self.isok(u[0] + dx[i] , u[1] + dy[i])):
+          Q.append((u[0] +dx[i] , u[1] + dy[i]))
+          self.vis[u[0] + dx[i]][u[1] + dy[i]]  = 1
+          self.path[u[0] + dx[i]][u[1] + dy[i]] = (( dx[i] , dy[i]))
 
-  # print(path[dest[0]][dest[1]])
-  v = []
-  path_pix = []
-  while(source[0] != dest[0] or  source[1] != dest[1]):
-    v.append(path[dest[0]][dest[1]])
-    path_pix.append((dest[0] , dest[1]))
-    dest[0] -=  v[-1][0]
-    dest[1] -= v[-1][1]
-  
-  direction = []
-  v.reverse()
-  for dr in v :
-    if(dr[0] == 0 and dr[1] == 1):
-      direction.append('R');
-    if(dr[0] == 0 and dr[1] == -1):
-      direction.append('L');
-    if(dr[0] == -1 and dr[1] == 0):
-      direction.append('U');
-    if(dr[0] == 1 and dr[1] == 0): 
-      direction.append('D');
-  
-  for x in direction:
-    #print(x , end = " ")
-    pass
-  
-  path_pix.append((0 , 2))
-  return path_pix
-
-      
+    v = []
+    path_pix = []
+    while(self.source[0] != self.dest[0] or  self.source[1] != self.dest[1]):
+      v.append(self.path[self.dest[0]][self.dest[1]])
+      path_pix.append((self.dest[0] , self.dest[1]))
+      self.dest[0] -=  v[-1][0]
+      self.dest[1] -= v[-1][1]
+    
+    path_pix.append((self.source[0] , self.source[1]))
+    return path_pix
 
 
