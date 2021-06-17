@@ -10,13 +10,6 @@ class Maze(object):
     self.start = [0 , 0]
     self.end = [0 , 0]
 
-  def _g(self , nodes):
-    graph= [[] for i in range(nodes + 1)]
-  
-  def _add(self , x , y):
-    graph[x].append(y)
-    graph[y].append(x)
-
   def _print(self):
     for j in range(0 , 100 , 10):
       for i in range(1, self.width - 1):
@@ -39,8 +32,11 @@ class Maze(object):
         if(self.data[i + j] > 0):
           nodes += 1
 
-    self._g(nodes)
     self._print()
+
+
+
+
     
 
 
