@@ -22,17 +22,25 @@ shortest path in term of L R D U.
 sol : docs/back.cpp
 D R R R D D L D D D D D R R D
 
+--------
+
+
 Current (hard coded)
-it only works for 1 testcase 10x10 pixel (tiny.png). output = (out.png)
-./run.sh < docs/in
+- it only works for 1 testcase 10x10 pixel (tiny.png). output = (out.png)
+- ./run.sh < docs/in
 
 
-in-order to make it run for every case.
+In-order to make it run for every case.
 - change code in bfs(n & m)
 - change in file.(it contain every pixel of image).
 - change code maze.py
 
 
-ignore
-git config credential.helper 'cache --timeout=243600'
+As the image is 10x10 so to see the input image & output image. click link below.
+- https://imgur.com/a/dm3L0zi
+- the images are not photoshoped. You can't view 10x10 image on any os , s i used photoshop to view it.
+
+
+Ignore
+- git config credential.helper 'cache --timeout=243600'
 
