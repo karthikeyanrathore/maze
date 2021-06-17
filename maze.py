@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from PIL import Image
+from bfs  import * 
 
 class Maze(object):
   def __init__(self ,img):
@@ -31,13 +32,30 @@ class Maze(object):
       for i in range(1, self.width - 1):
         if(self.data[i + j] > 0):
           nodes += 1
-
     self._print()
 
 
-
-
+  def _color(self):
+    self.img = self.img.convert('RGB')
+    impix = self.img.load()
+    row = 1
+    col = 4
     
+    path_pix = []
+    func = bfs()
+    path_pix = (func)
+    path_pix.reverse()
+ 
+    for i in path_pix:
+      row = i[0]
+      col = i[1] + 1
+      print(impix[col ,row])
+      impix[col , row] = (0 , 0 ,204)
+    
+    self.img.save("test/out.png")
+
+
+
 
 
 

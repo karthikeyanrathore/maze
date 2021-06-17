@@ -7,7 +7,8 @@ from maze import Maze
 def fun(image_in):
   img = Image.open(image_in)
   maze = Maze(img)
-  maze._create()
+  #maze._create()
+  maze._color()
 
 
 if __name__ == "__main__":
