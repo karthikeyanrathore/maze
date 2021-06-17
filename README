@@ -22,3 +22,9 @@ shortest path in term of L R D U.
 sol : docs/back.cpp
 D R R R D D L D D D D D R R D
 
+
+
+
+ignore
+git config credential.helper 'cache --timeout=243600'
+
