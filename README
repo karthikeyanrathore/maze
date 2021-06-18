@@ -25,18 +25,35 @@ D R R R D D L D D D D D R R D
 --------
 
 FINAL
-- I guess it works for every  testcases.
+- I guess it works for every  testcases (no).
 - ./run.sh (tiny 10x10 img) - https://imgur.com/a/dm3L0zi
+
 - ./srun.sh (small 15x15 img) - https://imgur.com/a/q0Ui4Ne
+
 - ./nrun.sh (normal 41x41 img) - https://imgur.com/a/hFjQyAD
-- ./prun.sh (perfect4k 4001x4001 img) - https://imgur.com/a/1ybH0Jm (image too large) 
+
+- ./brun.sh (braid200 200x200 img) - (multiple solutions possible)
+
+- ./crun.sh (combo400 400x400 img) -
+
+- ./prun.sh (perfect4k 4001x4001 img) - https://imgur.com/a/1ybH0Jm (image too large to view , one solution only) 
+
+- ./c6run.sh (combo600 60001x6001 img) -
+
+
+
+
+TODO
+- compare various path finding algos on image braid200.
+
 
 As the images are 10x10 , 15x15 , 41x41 so to see the input image & output image.
 - the images are not photoshoped. You can't view 10x10 image on any os(image viewer) , so i used photoshop to view it.
 
+
 Issue
 - saving every singlie pixel in docs/in1 , in2 , in3 // is not the right way.
-
+- Failed at test case perfect15k
 
 Ignore
 - git config credential.helper 'cache --timeout=243600'
