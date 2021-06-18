@@ -24,21 +24,22 @@ D R R R D D L D D D D D R R D
 
 --------
 
-FINAL
+FINAL (all based on BFS algo)
 - I guess it works for every  testcases (no).
+
 - ./run.sh (tiny 10x10 img) - https://imgur.com/a/dm3L0zi
 
 - ./srun.sh (small 15x15 img) - https://imgur.com/a/q0Ui4Ne
 
 - ./nrun.sh (normal 41x41 img) - https://imgur.com/a/hFjQyAD
 
-- ./brun.sh (braid200 200x200 img) - (multiple solutions possible)
+- ./brun.sh (braid200 200x200 img) - (multiple solutions possible) - https://imgur.com/a/DqWnEUG
 
-- ./crun.sh (combo400 400x400 img) -
+- ./crun.sh (combo400 400x400 img) - (multiple solutions possible)- https://imgur.com/a/ct2akcy
 
-- ./prun.sh (perfect4k 4001x4001 img) - https://imgur.com/a/1ybH0Jm (image too large to view , one solution only) 
+- ./prun.sh (perfect4k 4001x4001 img) - (image too large to view , one solution only)- https://imgur.com/a/1ybH0Jm 
 
-- ./c6run.sh (combo600 60001x6001 img) -
+- ./c6run.sh (combo600 6001x6001 img) - (multiple solutions possible) - https://imgur.com/a/dnV2yGQ
 
 
 
