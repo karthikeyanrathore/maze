@@ -47,7 +47,6 @@ FINAL (all based on BFS algo)
 TODO
 - compare various path finding algos on image braid200.
 
-
 As the images are 10x10 , 15x15 , 41x41 so to see the input image & output image.
 - the images are not photoshoped. You can't view 10x10 image on any os(image viewer) , so i used photoshop to view it.
 
@@ -58,6 +57,6 @@ Issue
 
 Ignore
 - git config credential.helper 'cache --timeout=243600'
-
+- Learn bfs here - https://youtu.be/_YVhjRAfkOw 
 
 
