@@ -23,7 +23,7 @@ class Maze(object):
  
   def _color(self):
     print("height %d width %d" % (self.height , self.width))
-    self._print()
+    #self._print()
 
     self.img = self.img.convert('RGB')
     impix = self.img.load()
