@@ -29,7 +29,7 @@ FINAL
 - ./run.sh (tiny 10x10 img) - https://imgur.com/a/dm3L0zi
 - ./srun.sh (small 15x15 img) - https://imgur.com/a/q0Ui4Ne
 - ./nrun.sh (normal 41x41 img) - https://imgur.com/a/hFjQyAD
-- ./prun.sh (perfect4k 4001x4001 img) - 
+- ./prun.sh (perfect4k 4001x4001 img) - https://imgur.com/a/1ybH0Jm (image too large) 
 
 As the images are 10x10 , 15x15 , 41x41 so to see the input image & output image.
 - the images are not photoshoped. You can't view 10x10 image on any os(image viewer) , so i used photoshop to view it.
