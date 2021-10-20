@@ -1,4 +1,5 @@
 ## Wiki
+```
 Q. Given a maze , source , destination . find path. L R U D (left , right ,up , down).
 
 0 = walls
@@ -22,6 +23,7 @@ shortest path in term of L R D U.
 
 sol : docs/back.cpp
 D R R R D D L D D D D D R R D
+```
 
 ## run
 ```
