@@ -39,11 +39,6 @@ chmod +x run.sh
 - combo400 400x400 img, multiple solutions possible [Link](https://imgur.com/a/ct2akcy)
 - perfect4k 4001x4001 img, image too large to view , one solution only- [Link](https://imgur.com/a/1ybH0Jm) 
 - combo600 6001x6001 img, multiple solutions possible [Link](https://imgur.com/a/dnV2yGQ)
-
-## TODO
-```
-- compare various path finding algos on image braid200.
-```
 ## issue
 ```
 - saving every singlie pixel in docs/in1 , in2 , in3 // is not the right way.
@@ -57,4 +52,7 @@ chmod +x run.sh
 - As the images are 10x10 , 15x15 , 41x41 so to see the input image & output image.
 - You can't view 10x10 image on any os(image viewer) , so i used photoshop to view it.
 ```
-
+## TODO
+```
+- compare various path finding algos on image braid200.
+```
