@@ -32,13 +32,13 @@ chmod +x run.sh
 ```
 
 ## examples. bfs-algo
-- tiny 10x10 img - https://imgur.com/a/dm3L0zi
-- small 15x15 img - https://imgur.com/a/q0Ui4Ne
-- normal 41x41 img - https://imgur.com/a/hFjQyAD
-- braid200 200x200 img - (multiple solutions possible) - https://imgur.com/a/DqWnEUG
-- combo400 400x400 img - (multiple solutions possible)- https://imgur.com/a/ct2akcy
-- perfect4k 4001x4001 img - (image too large to view , one solution only)- https://imgur.com/a/1ybH0Jm 
-- combo600 6001x6001 img - (multiple solutions possible) - https://imgur.com/a/dnV2yGQ
+- tiny 10x10 img [Link](https://imgur.com/a/dm3L0zi)
+- small 15x15 img [Link](https://imgur.com/a/q0Ui4Ne)
+- normal 41x41 img [Link]( https://imgur.com/a/hFjQyAD)
+- braid200 200x200 img, multiple solutions possible [Link](https://imgur.com/a/DqWnEUG)
+- combo400 400x400 img, multiple solutions possible [Link](https://imgur.com/a/ct2akcy)
+- perfect4k 4001x4001 img, image too large to view , one solution only- [Link](https://imgur.com/a/1ybH0Jm) 
+- combo600 6001x6001 img, multiple solutions possible [Link](https://imgur.com/a/dnV2yGQ)
 
 ## TODO
 ```
