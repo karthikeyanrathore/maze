@@ -7,4 +7,4 @@ chmod +x run.sh
 ```
 
 
-![tiny](https://github.com/karthikeyanrathore/maze/blob/master/images/tiny.png)
+![READ](https://github.com/karthikeyanrathore/maze/blob/master/images/READ.png)
